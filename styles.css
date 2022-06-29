@@ -1,13 +1,97 @@
-* {
-    box-sizing: border-box;
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
   }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+a:visited {
+    color: #E5E7EB;
+}
+a:link {
+    color: #E5E7EB;
+}
+a:hover {
+    color: #b8b9bb;
+}
+a:active {
+    color: #818181;
+}
+
 html {
     margin: 0;
     min-height: 100%;
 }
 body {
     font-family: Arial;
-    padding: 10px;
     background: #f1f1f1;
   }
 .pageLayouts
@@ -81,19 +165,6 @@ img{
     max-height: 100%;
     display: block; /* remove extra space below image */
 }
-a:visited {
-    color: #E5E7EB;
-}
-a:link {
-    color: #E5E7EB;
-}
-a:hover {
-    color: #b8b9bb;
-}
-a:active {
-    color: #818181;
-}
-
 .box1{
     width: 100%;
     border: black;
@@ -105,7 +176,7 @@ a:active {
     justify-content:center;
     align-items: center;
     text-decoration: none;
-    position: absolute;
+    position: relative;
     z-index: 8;
     gap: 200px;
     left: 0;
@@ -135,16 +206,16 @@ a:active {
 }
 .box1Image{
     width: 500px;
-    height: 250px;
+    height: 400px;
 }
 .button {
-    background-color: #04AA6D;
+    background-color: #3882F6;
     width: 90px;
     height: 30px;
     border: none;
     color: white;
     text-align: center;
-    padding: 6px;
+    padding: 5px;
     text-decoration: none;
     display: inline-block;
     margin-left: -170px;
@@ -154,8 +225,43 @@ a:active {
 
 .button4 {border-radius: 10px;}
 
-
-
+.box2{
+    width: 100%;
+    border: black;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-decoration: none;
+    position:relative;
+    gap: 50px;
+    z-index: 8;
+}
+.box2imagecontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content:center;
+    width: 800px;
+    height: fit-content;
+}
+.box2image{
+    width: 150px;
+    max-width: 150px;
+    height: 150px;
+    max-height: 150px;
+    border: 2px solid #1F2937;
+    background-color: rgba(31, 41, 55, 0.2)
+}
+.box2imageText{
+    width: 150px;
+    max-width: 150px;
+    height: 150px;
+    max-height: 150px;
+}
 
 .footer {
     position: fixed;
