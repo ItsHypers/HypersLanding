@@ -84,6 +84,15 @@ img{
 a:visited {
     color: #E5E7EB;
 }
+a:link {
+    color: #E5E7EB;
+}
+a:hover {
+    color: #b8b9bb;
+}
+a:active {
+    color: #818181;
+}
 
 .box1{
     width: 100%;
