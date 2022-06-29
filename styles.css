@@ -232,10 +232,10 @@ img{
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     text-decoration: none;
-    position:relative;
+    position: relative;
     gap: 50px;
     z-index: 7;
 }
