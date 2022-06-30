@@ -140,7 +140,7 @@ body {
     color: white;
     font-size: 14px;
     letter-spacing: 0.1em;
-    font-family: "roboto";
+
     margin: 0 0 0 0.5vw;
 }
 .headerTextContainer {
@@ -201,6 +201,7 @@ img{
 }
 .box1right{
     display: flex;
+    margin-top: 50px;
     justify-content: center;
     align-items: center;
 }
@@ -262,20 +263,97 @@ img{
     height: 150px;
     max-height: 150px;
 }
+.box3{
+  width: 100%;
+  border: black;
+  height: 500px;
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  gap: 50px;
+  z-index: 6;
+}
+.quote{
+  margin-top:200px;
+  margin-bottom:auto;
+  width: 500px;
+  font-size: auto;
+  font-style:italic;
+  font-weight:400;
+  color:#1F2937
+}
+.quoter{
+  margin-top: -300px;
+  margin-left: 300px;
+  text-align: top;
+  flex-basis: 200px;
+}
+.box4{
+  width: 100%;
+  border: black;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex: 1, 0, 50%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  gap: 50px;
+  z-index: 5;
+}
+.box4header{
+  font-weight: 900;
+  font-size: 18px;
+  margin:40px 0 0 0;
+  margin-left: 10px;
+}
+
+.box4subtext{
+  margin:0 0 40px 0;
+  margin-left: 10px;
+}
+.box4text{
+  display : flex;
+  flex-direction: row;
+  text-align: left;
+  color: white;
+  background-color: #3882F6;
+  width: 1000px;
+  border-radius: 10px;
+}
+.box4text.right{
+  flex: 2 1 0%;
+  display: flex;
+  flex-direction: column;
+}
+
+.box4button{
+  align-self: center;
+  padding:5px 25px 5px 25px;
+  color:#F9FAF8;
+  background-color: #3882F6;
+  border-radius: 10px;
+  border-color: #F9FAF8;
+  margin-right: 50px;
+}
 
 .footer {
-    position: fixed;
-    padding: 10px 10px 0px 10px;
+    position: relative;
     bottom: 0;
-    left: 0;
     width: 100%;
-    size: auto;
+    z-index: 9;
     text-align: center;
     color: white;
     font-size: 14px;
     letter-spacing: 0.1em;
     font-family: "roboto";
     /* Height of the footer*/ 
-    height: 50px;
+    height: 30px;
     background: #1F2937;
   }
