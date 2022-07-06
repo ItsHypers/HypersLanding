@@ -1,4 +1,21 @@
-# hyperslanding.github.io
-This Landing Page was part of the HTML/CSS Section of the TOP (The Oden Project) course, I used Flexboxes, HTML and CSS to create a professional-looking landing page. This helped me understand flex-boxes, general website positioning and more advanced CSS practices. 
+<h1 align="center">Welcome to Web Landing Page 👋</h1>
+<p>
+</p>
 
-Live Preview: https://itshypers.github.io/HypersLanding
+> A practise web landing page, to learn CSS/HTML
+
+### ✨ [Demo](https://itshypers.github.io/HypersLanding)
+
+## Author
+
+👤 **Ryan Thomas**
+
+* Github: [@ItsHypers](https://github.com/ItsHypers)
+* LinkedIn: [@ryanthomas11](https://linkedin.com/in/ryanthomas11)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
