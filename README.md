@@ -4,7 +4,7 @@
 
 > A practise web landing page, to learn CSS/HTML
 
-### ✨ [Demo](https://itshypers.github.io/HypersLanding)
+### ✨ [Live Page](https://itshypers.github.io/HypersLanding)
 
 ## Author
 
